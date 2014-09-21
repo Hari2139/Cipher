@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+<info organisation="com.hari" module="Cipher" />
+
+	<configurations>
+		<conf name="default" visibility="public" />
+	</configurations>
+	
+	<dependencies>
+		<dependency org="commons-codec" name="commons-codec" rev="1+" conf="default" />
+		<dependency org="commons-lang" name="commons-lang" rev="2+" conf="default" />
+		
+		<!-- For JUnit -->
+		<dependency org="junit" name="junit" rev="4.1" conf="default" />
+	</dependencies>
+
+</ivy-module>
